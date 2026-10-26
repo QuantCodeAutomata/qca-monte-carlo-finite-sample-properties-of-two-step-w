@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.nbc
+*.nbi
+.pytest_cache/
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.ipynb_checkpoints
+# Raw downloaded Massive / proprietary market data — never commit
+data/*.parquet
+data/*.h5
+data/*.hdf5
+data/raw/
